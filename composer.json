@@ -1,0 +1,22 @@
+{
+    "name": "pesu12/mymodule2",    
+    "type": "library",
+    "description": "Various base classes for comments management",
+    "keywords": ["comments", "education"],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Per Sundberg",
+            "email": "sundberg_p@yahoo.com",
+            "homepage": "http://www.aftonbladet.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Phpmvc\\": "src/" }
+    }
+}
